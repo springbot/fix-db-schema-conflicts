@@ -8,7 +8,7 @@ Layout/ExtraSpacing:
   # When true, allows most uses of extra spacing if the intent is to align
   # things with the previous or next line, not counting empty lines or comment
   # lines.
-  AllowForAlignment: false
+  AllowForAlignment: true
 
 Layout/SpaceBeforeFirstArg:
   Enabled: true
@@ -36,3 +36,6 @@ Style/HashSyntax:
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Enabled: false
